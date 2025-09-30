@@ -1,0 +1,130 @@
+{
+  "id": "998cfaba",
+  "name": "food",
+  "created": "2025-09-30T05:58:52.889422",
+  "subjects": [
+    {
+      "name": "Math",
+      "hours": 4,
+      "priority": 1
+    },
+    {
+      "name": "Physics",
+      "hours": 3,
+      "priority": 3
+    },
+    {
+      "name": "chem",
+      "hours": 10,
+      "priority": 3
+    }
+  ],
+  "daily_availability": {
+    "Monday": 3,
+    "Tuesday": 3,
+    "Wednesday": 6,
+    "Thursday": 3,
+    "Friday": 3,
+    "Saturday": 3,
+    "Sunday": 12
+  },
+  "schedule": {
+    "Monday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 12,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 13,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Thursday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      }
+    ],
+    "Friday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Saturday": [],
+    "Sunday": []
+  }
+}

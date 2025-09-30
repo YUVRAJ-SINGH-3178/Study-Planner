@@ -1,0 +1,130 @@
+{
+  "id": "51232e27",
+  "name": "Study",
+  "created": "2025-09-30T06:20:06.436236",
+  "subjects": [
+    {
+      "name": "Math",
+      "hours": 4,
+      "priority": 3
+    },
+    {
+      "name": "Physics",
+      "hours": 3,
+      "priority": 3
+    },
+    {
+      "name": "chem",
+      "hours": 10,
+      "priority": 5
+    }
+  ],
+  "daily_availability": {
+    "Monday": 4,
+    "Tuesday": 5,
+    "Wednesday": 3,
+    "Thursday": 4,
+    "Friday": 8,
+    "Saturday": 0,
+    "Sunday": 12
+  },
+  "schedule": {
+    "Monday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "chem"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 12,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "Physics"
+      }
+    ],
+    "Thursday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Friday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Physics"
+      }
+    ],
+    "Saturday": [],
+    "Sunday": []
+  }
+}

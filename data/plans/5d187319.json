@@ -1,0 +1,196 @@
+{
+  "id": "5d187319",
+  "name": "Study",
+  "created": "2025-09-30T06:20:45.555491",
+  "subjects": [
+    {
+      "name": "Math",
+      "hours": 10,
+      "priority": 3
+    },
+    {
+      "name": "Physics",
+      "hours": 10,
+      "priority": 3
+    },
+    {
+      "name": "chem",
+      "hours": 10,
+      "priority": 5
+    }
+  ],
+  "daily_availability": {
+    "Monday": 4,
+    "Tuesday": 5,
+    "Wednesday": 3,
+    "Thursday": 4,
+    "Friday": 8,
+    "Saturday": 0,
+    "Sunday": 6
+  },
+  "schedule": {
+    "Monday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "chem"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 12,
+        "duration": 1,
+        "subject": "Physics"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "Physics"
+      }
+    ],
+    "Thursday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Friday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 12,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 13,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 14,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 15,
+        "duration": 1,
+        "subject": "Math"
+      }
+    ],
+    "Saturday": [],
+    "Sunday": [
+      {
+        "start": 8,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 9,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 10,
+        "duration": 1,
+        "subject": "Physics"
+      },
+      {
+        "start": 11,
+        "duration": 1,
+        "subject": "chem"
+      },
+      {
+        "start": 12,
+        "duration": 1,
+        "subject": "Math"
+      },
+      {
+        "start": 13,
+        "duration": 1,
+        "subject": "Physics"
+      }
+    ]
+  }
+}

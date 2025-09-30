@@ -1,0 +1,103 @@
+:root{
+  --bg:#f6f8fb;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent:#5b8def;
+  --glass: rgba(255,255,255,0.7);
+  --pill-bg: #6c757d;
+}
+body{
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #eef3fb 0%, var(--bg) 100%);
+  color:#111827;
+}
+
+/* Navbar */
+.navbar-portal{
+  background: transparent;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.logo-badge{
+  width:44px;height:44px;border-radius:10px;
+  background: linear-gradient(135deg,#6c9efc,#4fb3ff);
+  color:white;display:flex;align-items:center;justify-content:center;font-weight:700;
+  box-shadow: 0 6px 18px rgba(79,179,255,0.18);
+}
+.brand-title{ font-weight:700; font-size:1rem; }
+.brand-sub{ font-size:0.75rem; color:var(--muted); }
+
+/* Cards */
+.card-glass{ background: var(--card); border-radius:12px; border: none; }
+.card-glass .card-body{ padding:18px; }
+
+/* Small UI */
+.subject-pill{ display:inline-flex; align-items:center; justify-content:center;
+  border-radius:10px; padding:6px 10px; color:#fff; font-weight:600; font-size:0.85rem;
+  box-shadow: 0 6px 14px rgba(16,24,40,0.06);
+  transition: transform .12s ease, box-shadow .12s ease, opacity .12s;
+  cursor:grab;
+}
+.subject-pill:active{ cursor:grabbing; transform:scale(.98); }
+
+/* Colors for example */
+.sub-Math{ background: linear-gradient(90deg,#7c3aed,#4f46e5); }
+.sub-Physics{ background: linear-gradient(90deg,#06b6d4,#0891b2); }
+.sub-Default{ background: linear-gradient(90deg,#6c757d,#495057); }
+
+/* Schedule table */
+.table-schedule{ width:100%; border-collapse: collapse; }
+.table-schedule th{ background:transparent; border-bottom: none; font-weight:600; color:var(--muted); padding:8px; }
+.table-schedule td{ min-width:110px; height:42px; border:1px dashed rgba(15,23,42,0.04); padding:6px; vertical-align:middle; transition: background .12s; }
+.table-schedule td.drop-hover{ background: rgba(91,141,239,0.06); }
+
+/* compact mode */
+.compact .table-schedule td{ height:34px; padding:4px; }
+
+/* small helpers */
+#pomTimer{ font-weight:700; font-size:1.25rem; }
+.alert-inline{ padding:6px 10px; border-radius:8px; font-size:0.9rem; }
+
+/* dark mode */
+body.dark{
+  background: linear-gradient(180deg,#0f1724 0%, #071029 100%);
+  color:#e6eef8;
+}
+body.dark .card-glass{ background: rgba(10,18,34,0.45); color:#e6eef8; }
+body.dark .table-schedule td{ border-color: rgba(255,255,255,0.04); }
+
+/* Attribution box (bottom-right small card) */
+#ssp-attrib{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99998;
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(250,250,250,0.92));
+  color: #0b1220;
+  border-radius: 12px;
+  padding: 10px 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 12px 30px rgba(12,24,64,0.12);
+  backdrop-filter: blur(6px);
+  min-width: 220px;
+  max-width: 320px;
+  font-size: 0.90rem;
+  transition: transform .12s ease, opacity .12s ease;
+}
+body.dark #ssp-attrib{
+  background: rgba(18,22,34,0.6);
+  color: #e6eef8;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+#ssp-attrib .made-by { font-weight: 600; color: inherit; }
+#ssp-attrib .github-line { color: rgba(11,17,28,0.7); font-size: 0.88rem; margin-top: 2px; }
+body.dark #ssp-attrib .github-line { color: rgba(230,238,248,0.85); }
+#ssp-attrib a { color: #0b61ff; text-decoration: none; font-weight:600; }
+body.dark #ssp-attrib a { color: #8fb7ff; }
+#ssp-attrib .attrib-actions { margin-left: auto; display:flex; align-items:center; gap:8px; }
+#copyGH { padding:4px 8px; font-size:0.82rem; border-radius:8px; }
+@media (max-width: 640px){
+  #ssp-attrib { display: none; }
+}
