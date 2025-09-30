@@ -25,7 +25,7 @@ An **interactive weekly study planner** that helps students manage study hours, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YUVRAJ-SINGH-3178/smart-study-planner.git
+git clone https://github.com/YUVRAJ-SINGH-3178/Study-Planner
 cd smart-study-planner
 
 # Install dependencies
