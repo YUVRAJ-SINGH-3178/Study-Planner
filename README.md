@@ -21,13 +21,6 @@ An **interactive weekly study planner** that helps students manage study hours, 
 
 ---
 
-## 🎨ScreenShot
-
-![Planner Screenshot](<img width="1910" height="779" alt="image" src="https://github.com/user-attachments/assets/cf84dbd2-252a-4060-ba4d-f4cc756c07df" />
-)
-
----
-
 ## 🛠️ Installation
 
 ```bash
