@@ -1,6 +1,4 @@
-Perfect! Here’s a complete, human-friendly README for your **Smart Study Planner** project that you can copy and paste directly into your `README.md`:
 
-````markdown
 # Smart Study Planner
 
 An interactive study planner web app to help students organize their weekly schedule, track study hours, and manage subjects efficiently. Built with **Flask** for the backend and **JavaScript + Bootstrap 5** for the frontend.
