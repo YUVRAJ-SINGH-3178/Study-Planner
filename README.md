@@ -92,7 +92,6 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 * Drag & Drop your subjects
 * Pomodoro timer in action
 * Light/Dark theme toggle
-* 
 ---
 
 ## 📂 File Structure
