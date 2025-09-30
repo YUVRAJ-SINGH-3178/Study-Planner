@@ -28,18 +28,6 @@ An interactive study planner web app to help students organize their weekly sche
 
 ---
 
-## Features
-
-- **Weekly Schedule:** Plan study hours for each subject with customizable priorities.
-- **Drag & Drop:** Move subjects between slots easily.
-- **Pomodoro Timer:** Start, pause, and reset your study sessions with inline notifications.
-- **Notes per Subject:** Save notes directly in the browser and access them from schedule or subject rows.
-- **Export Options:** Download schedule as CSV or iCalendar (ICS) files.
-- **Theme Toggle:** Light and dark mode with saved preferences.
-- **Undo Changes:** Revert mistakes quickly with the undo button.
-
----
-
 ## Installation
 
 1. Clone the repository:
